@@ -1,0 +1,30 @@
+
+mod = {
+    'TOM12_TJ_1ASA' : {
+        'basedir' : '/gpfs/data/greenocean/software/runs/',
+        'color' : 'y'},
+    'TOM12_DW_WE43' : {
+        'basedir' : '/gpfs/data/greenocean/software/runs/',
+        'color' : 'tan'},
+    'TOM12_DW_GA01' : {
+        'basedir' : '/gpfs/data/greenocean/software/runs/',
+        'color' : 'dimgrey'},
+    'TOM10_CL_LIG9' : {
+        'basedir' : '/gpfs/home/e415/scratch/',
+        'color' : 'plum'},
+    'TOM10_CL_LIGD' : {
+        'basedir' : '/gpfs/home/e415/scratch/',
+        'color' : 'm'},
+    'TOM12_RW_3G20' : {
+        'basedir' : '/gpfs/home/hnb15vcu/scratch/ModelRuns/',
+        'color' : 'cornflowerblue'},
+    'TOM12_RW_3G07' : {
+        'basedir' : '/gpfs/home/hnb15vcu/scratch/ModelRuns/',
+        'color' : 'royalblue'},
+    'TOM12_RW_3G09' : {
+        'basedir' : '/gpfs/home/hnb15vcu/scratch/ModelRuns/',
+        'color' : 'darkcyan'},
+    'TOM12_RW_3G35' : {
+        'basedir' : '/gpfs/home/hnb15vcu/scratch/ModelRuns/',
+        'color' : 'skyblue'}
+}
