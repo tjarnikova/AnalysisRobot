@@ -1,0 +1,1 @@
+mv *.jpg PLOTS

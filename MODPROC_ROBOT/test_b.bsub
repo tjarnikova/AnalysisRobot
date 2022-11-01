@@ -1,0 +1,30 @@
+#!/bin/sh
+
+#SBATCH --mail-type=ALL
+#SBATCH -p compute-16-64
+#SBATCH -t 96:00:00
+#SBATCH --job-name=era
+#SBATCH -o p-%J.out
+#SBATCH -e p-%J.out
+#SBATCH --mem 8G 
+
+# put your code here!!
+conda activate swampenv
+
+import xarray as xr
+import numpy as np
+
+yrs = np.arange(1940,1950,1)
+cflx_pg_yr = np.zeros_like(yrs)
+ds2 = xr.Dataset(
+    {
+        "cflx": (["time"], cflx_pg_yr, {"units": "pg/yr"}, {"notes": "co2 flux, whole ocean"}),
+    },
+    coords={
+        "yrs": (["time"], yrs)
+    },
+    attrs=dict(description="model analytics"),
+)
+ds2.to_netcdf('test_nc.nc')
+
+

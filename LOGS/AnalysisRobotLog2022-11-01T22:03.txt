@@ -1,0 +1,3 @@
+AnalysisRobot initialized on 2022-11-01T22:03
+analysis initiated for TOM12_DW_WE43, 1950-2015
+___date and time = 01/11/2022 22:03:13
