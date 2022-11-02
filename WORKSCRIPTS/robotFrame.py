@@ -61,4 +61,4 @@ def runAnalysisRobot(ourModels):
             cP.plot_carbon(dsets, cols, tms, ls, tdir, fnam, tstart=1948, tend=endyear, tendatm=endatm)
             log.noteLog('summary cflx B01 rendered', lognam = tlog)
         except:
-            og.noteLog('summary cflx B01 NOT rendered', lognam = tlog)
+            log.noteLog('summary cflx B01 NOT rendered', lognam = tlog)
