@@ -32,8 +32,12 @@ mod = {
         'basedir' : '/gpfs/home/hnb15vcu/scratch/ModelRuns/',
         'desc': 'RW tuning runs',
         'color' : 'darkcyan'},
-    'TOM12_RW_3G35' : {
+    'TOM12_RW_TES2' : {
         'basedir' : '/gpfs/home/hnb15vcu/scratch/ModelRuns/',
-        'desc': 'RW tuning runs',
-        'color' : 'skyblue'}
+        'desc': 'RW milestone (3param)',
+        'color' : 'darkcyan'},
+    'TOM12_RW_3G34' : {
+        'basedir' : '/gpfs/home/hnb15vcu/scratch/ModelRuns/',
+        'desc': 'RW combination',
+        'color' : 'orange'}
 }
